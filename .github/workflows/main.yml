@@ -1,0 +1,13 @@
+name: 'Test WF'
+
+on:
+  push:
+  
+jobs:
+  test:
+    runs-on: ['self-hosted']
+    steps:
+
+    - name: Execution
+      run: |
+          echo "Hello World"
